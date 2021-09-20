@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+#Staff,#InstituteShop,#UserRegistration,#GuestBook{
+    display: none;
+    overflow: auto;
+    height:100vh;
+}
+nav{
+    height:100vh;
+
+    padding-left: 20px;
+    width:20vw;
+    background-color: black;
+    color : white;
+    float: left;
+    text-decoration: none;
+}
+nav li{
+    vertical-align: middle;
+    list-style-type: none;
+    padding-top:20px;
+}
+
+#Staff{
+    overflow: auto;
+    height:100vh;
+}
